@@ -1,3 +1,6 @@
+# Solution to the ZigZag Conversion problem
+# Runs in O(n) time as it does one pass through the array
+
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         # Check if len is less than numRows or its length is 1
